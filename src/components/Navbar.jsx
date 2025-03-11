@@ -10,7 +10,7 @@ const CustomNavbar = () => {
   return (
     <>
       {/* Navbar */}
-      <Navbar fluid className="bg-gray-800 lg:px-10 py-5">
+      <Navbar fluid className="bg-gray-800 px-5 lg:px-10 py-5">
         {/* Logo */}
         <Navbar.Brand href="/">
           <span className="self-center whitespace-nowrap text-xl font-semibold text-white">
@@ -59,7 +59,7 @@ const CustomNavbar = () => {
 
       {/* Mobile Drawer */}
       <div
-        className={`fixed top-0 left-0 h-full w-64 bg-gray-800 text-white transform transition-transform duration-300 ease-in-out z-50 ${
+        className={`fixed top-0 left-0 h-full w-56 bg-gray-800 text-white transform transition-transform duration-300 ease-in-out z-50 ${
           isOpen ? "translate-x-0" : "-translate-x-full"
         } lg:hidden`}
       >
